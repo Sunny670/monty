@@ -17,7 +17,7 @@ len++;
 }
 if (len < 2)
 {
-fprint(stderr, "L%d: can't add, stack to short\n", counter);
+fprintf(stderr, "L%d: can't add, stack to short\n", counter);
 fclose(bus.file);
 free(bus.content);
 free_stack(*head);
